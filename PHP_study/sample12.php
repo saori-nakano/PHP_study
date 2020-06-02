@@ -18,8 +18,10 @@
 <main>
 <h2>書式を整えるーsprintf</h2>
 <pre>
-<?php>
-$date = sprintf('%04d年 %02d月 %02d日')
+<?php
+$date = sprintf('%04d年 %02d月 %02d日', 2018, 1, 23);
+print($date);
+?>
 </pre>
 </main>
 </body>    
