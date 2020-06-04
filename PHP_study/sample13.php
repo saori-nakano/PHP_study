@@ -19,7 +19,7 @@
 <h2>ファイルに内容を書き込むーfile_put_coments</h2>
 <pre>
 <?php
-$success = file_put_contents('./news_data/news.txt'. '2018-06-01 ホームページをリニューアルしました');
+$success = file_put_contents('./news_data/news.txt', '2018-06-01 ホームページをリニューアルしました');
 if ($success) {
     print('ファイルへの書き込みが完了しました。');
 } else {
